@@ -1,5 +1,5 @@
 /* Basic Style */
-.body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -83,7 +83,7 @@ button{
   text-transform: uppercase;
 }
 
-.task-item {
+.task__item {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +96,7 @@ button{
   color: #888;
 }
 
-.task-item:focus {
+.task__item:focus {
   color: #333;
 }
 
@@ -106,7 +106,7 @@ button{
   margin: 0 0 20px;
 }
 
-.task-item_new {
+.task__item_new {
   width: 318px;
 }
 
@@ -135,7 +135,7 @@ button{
   width: 226px;
 }
 
-.list__item .task-item {
+.list__item .task__item {
   width: 226px;
 }
 
@@ -150,7 +150,7 @@ button{
 }
 
 /* Completed */
-.complete-tasks .task {
+.completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
